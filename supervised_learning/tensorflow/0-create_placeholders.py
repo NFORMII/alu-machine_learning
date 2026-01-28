@@ -11,3 +11,4 @@ def create_placeholders(nx, classes):
     y = tf.placeholder("float", shape=[None, classes], name="y")
     return x, y
 
+
