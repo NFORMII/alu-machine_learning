@@ -1,6 +1,6 @@
 
 #!/usr/bin/env python3
-"""creating a deep neural network"""
+#creating a deep neural network
 
 
 import numpy as np
