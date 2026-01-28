@@ -63,4 +63,4 @@ class NeuralNetwork:
         z_a = np.matmul(self.__W2, self.__A1) + self.__b2
         sigmoid_2 = 1 / (1 + np.exp(-z_a))
         self.__A2 = sigmoid_2
-        return self.__A1, self.__A2 
+        return self.__A1, self.__A2
